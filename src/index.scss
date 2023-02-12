@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap");
+
+:root {
+  --dark: #2b2d32;
+  --light: #adb5bd;
+  --border: #dee2e6;
+  --border-btn: #edf2f4;
+  --bg: #212529;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.7rem;
+}
+
+a,
+h1 {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+}

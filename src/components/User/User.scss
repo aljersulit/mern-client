@@ -1,0 +1,45 @@
+.btn {
+  background-color: initial;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #212529;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+
+  &:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+  }
+}
+
+.btn-delete {
+  margin-left: 0.5em;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+
+  &:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+  }
+}
