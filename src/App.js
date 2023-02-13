@@ -11,13 +11,12 @@ function App() {
       <header>
         <h1 className="app-title">User Management System</h1>
       </header>
-      <section>
-        <Routes>
-          <Route path="/" element={<UserList />} />
-          <Route path="/create" element={<CreateNewUser />} />
-          <Route path="/edit/:id" element={<EditUser />} />
-        </Routes>
-      </section>
+
+      <Routes>
+        <Route path="/" element={<UserList />} />
+        <Route path="/create" element={<CreateNewUser />} />
+        <Route path="/edit/:id" element={<EditUser />} />
+      </Routes>
     </div>
   );
 }

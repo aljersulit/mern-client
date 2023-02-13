@@ -5,7 +5,7 @@ div.App {
   padding-bottom: 5rem;
 
   header {
-    background-color: var(--bg);
+    background-color: #007bff;
 
     h1.app-title {
       color: var(--white);
@@ -15,54 +15,52 @@ div.App {
     }
   }
 
-  section {
-    width: 100%;
+  div.container {
+    max-width: 111rem;
+    margin: 7rem auto;
 
-    div.container {
-      max-width: 111rem;
-      margin: 7rem auto;
+    h2.title,
+    p.description {
+      text-align: center;
+      margin-top: 1rem;
+    }
 
-      h2.title,
-      p.description {
-        text-align: center;
-        margin-top: 1rem;
+    form {
+      max-width: 88rem;
+      margin: 4rem auto;
+
+      input[type="text"],
+      button {
+        width: 100%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        line-height: 3rem;
+        font-size: 1em;
+        padding: 0 1em;
+        border: 1px solid grey;
+        border-radius: 3px;
+        outline: none;
       }
 
-      form {
-        max-width: 88rem;
-        margin: 4rem auto;
+      div {
+        margin: 1rem 0;
 
-        input[type="text"],
-        button {
-          width: 100%;
-          margin-top: 0.5rem;
-          margin-bottom: 1rem;
-          line-height: 3rem;
-          padding: 0 1em;
-          border: 1px solid grey;
-          border-radius: 3px;
-          outline: none;
-        }
+        & > .inline {
+          display: inline-block;
+          margin-right: 3rem;
 
-        div {
-          margin: 1rem 0;
-
-          & > .inline {
-            display: inline-block;
-            margin-right: 3rem;
-
-            input[type="radio"] {
-              margin-right: 0.5em;
-            }
+          input[type="radio"] {
+            margin-right: 0.5em;
           }
         }
+      }
 
-        button {
-          background-color: #007bff;
-          text-transform: uppercase;
-          color: var(--white);
-          cursor: pointer;
-        }
+      button[type="submit"] {
+        background-color: #007bff;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: var(--white);
+        cursor: pointer;
       }
     }
   }

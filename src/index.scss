@@ -29,3 +29,9 @@ h1 {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
 }
+
+@media only screen and (max-width: 1260px) {
+  html {
+    font-size: 0.8vw;
+  }
+}
